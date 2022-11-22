@@ -1,0 +1,111 @@
+header {
+    width: 100%;
+}
+header section {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    video {
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+    }
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-left: 2%;
+    background-color: white;
+}
+
+nav > ul {
+    display: none;
+}
+
+nav summary {
+    color: orangered;
+    font-size: 24px;
+    padding: 2vh;
+}
+
+nav h2 {
+    color: orange;
+    margin-bottom: 0;        
+    padding: 2vh;
+    font-weight: 600;
+}
+
+details {
+    width: 95%;
+    position: absolute;
+    text-align: right;
+    @include flexAndSet;
+
+}
+
+details ul {
+    position: absolute;
+    background-color: orange;
+    width: 100%;
+    padding-left: 0;
+}
+
+details li {
+    display: flex;
+    border-top: 1px solid darkorange;
+    list-style-type: none;
+    text-align: left;
+    padding: 1vh;
+}
+
+details a {
+    padding-left: 2vh;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+img {
+    height: 20vh;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    p {
+        width: 90%;
+    }
+}
+
+.products {
+    display: flex;
+    background-color: orange;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 2vh;
+    img {
+        padding: 1vh;
+    }
+    figcaption {
+        padding-left: 1.2vh;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    a {
+        padding-top: 10vh;
+        padding-left: 3.5vh;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+
+
