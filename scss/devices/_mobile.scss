@@ -1,8 +1,14 @@
-@media (min-width:300px){
+@media (min-width:$mobile_version){
 
-    // header {
-
-    // }
-
+    header section {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        video {
+            height: 30vh;
+        }
+    }
+    
+    
 }
 
