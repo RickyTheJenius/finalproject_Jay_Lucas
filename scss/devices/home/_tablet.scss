@@ -3,17 +3,18 @@ nav {
     h1 {
         font-size: 30px;
     }
+
+    details {
+        summary {
+            font-size: 30px;
+        }
+    
+        ul {
+            margin-top: 3.8vh;
+        }
+    }
 } 
 
-details {
-    summary {
-        font-size: 30px;
-    }
-
-    ul {
-        margin-top: 4vh;
-    }
-}
 // NAVIGATION, END
 
 // HEADER, START
@@ -33,3 +34,20 @@ header section {
     }
 }
 // SECTION.COMPANY, END
+
+// SECTION.PRODUCT, START
+.products {
+    height: 35vh;
+
+    a {
+        font-size: 28px;
+    }
+}
+// SECTION.PRODUCT, END
+
+// SECTION.REVIEWS, START
+.reviews {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+// SECTION.REVIEWS, END
