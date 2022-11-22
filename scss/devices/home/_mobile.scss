@@ -5,6 +5,7 @@ main {
 header {
     width: 100%;
 }
+
 header section {
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +24,7 @@ nav {
     align-items: center;
     column-gap: 2vh;
     position: relative;
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     padding-left: 2%;
@@ -88,7 +89,7 @@ details {
 details ul {
     position: absolute;
     background-color: orange;
-    width: 100%;
+    width: 95%;
     padding-left: 0;
 }
 
@@ -111,30 +112,19 @@ img {
     height: 20vh;
 }
 
+// SECTION.COMPANY, START
 .company {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
     p {
-        width: 90%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    span {
+        color: $green_model1;
+        font-weight: 500;
     }
 }
-
-// SECTION.COMPANY, START
-    .company {
-        p {
-            text-align: center;
-            font-size: 18px;
-            font-weight: 300;
-        }
-
-        span {
-            color: $green_model1;
-            font-weight: 500;
-        }
-    }
 // SECTION.COMPANY, END
 
 // SECTION.PRODUCTS, START
@@ -311,9 +301,36 @@ img {
     iframe {
         width: 100%;
     }
+}
 // SECTION.CONTACT, END
 
 // FOOTER, START
-// FOOTER, END
+footer {
+    background-color: $green_model3;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1vh;
+    padding: 1vh;
+
+    p {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        text-align: center;
+        font-weight: 100;
+        font-size: 14px;
+
+        p {
+            font-size: 14px;
+        }
+    }
 }
+// FOOTER, END
 
