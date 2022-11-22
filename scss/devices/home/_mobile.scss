@@ -212,43 +212,105 @@ img {
 // SECTION.REVIEWS, END
 
 // SECTION.EMAIL, START
-    .email {
-        background-image: url(/img/bg-img-02.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
+.email {
+    background-image: url(/img/bg-img-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
 
-        article {
-            background-color: rgba(50, 50, 50, 0.8);
-            width: 100%;
-            height: 100%;
-            row-gap: 2vh;
+    article {
+        background-color: rgba(50, 50, 50, 0.8);
+        width: 100%;
+        height: 100%;
+        row-gap: 2vh;
 
-            h1 {
-                color: whitesmoke;
-                font-weight: 400;
-                font-size: 22px;
-            }
+        h1 {
+            color: whitesmoke;
+            font-weight: 400;
+            font-size: 22px;
+        }
 
-            p {
-                width: 80%;
-                text-align: center;
-                color: whitesmoke;
-                font-weight: 100;
-            }
+        p {
+            width: 80%;
+            text-align: center;
+            color: whitesmoke;
+            font-weight: 100;
+        }
 
-            a {
-                color: whitesmoke;
-                text-decoration: none;
-                background-color: rgba(0, 168, 187, 0.2);
-                padding: 2% 3% 3% 2%;
-                font-weight: 100;
-                font-size: 16px;
-                text-transform: capitalize;
-            }
+        a {
+            color: whitesmoke;
+            text-decoration: none;
+            background-color: rgba(0, 168, 187, 0.2);
+            padding: 2% 3% 3% 2%;
+            font-weight: 100;
+            font-size: 16px;
+            text-transform: capitalize;
         }
     }
+}
 // SECTION.EMAIL, END
 
+// SECTION.CONTACT, START
+.contact {
+    padding-top: 2vh;
+    row-gap: 3vh;
+    padding-bottom: 2vh;
+
+    section {
+        row-gap: 2vh;
+        width: 90%;
+    }
+
+    article {
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        color: $green_model1;
+        text-transform: capitalize;
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    form {
+        row-gap: 2vh;
+    }
+
+    input {
+        padding: 3%;
+        font-size: 10px;
+    }
+
+    textarea {
+        height: 20vh;
+        padding: 2%;
+        color: $green_model1;
+        font-size: 16px;
+    }
+
+    input::placeholder {
+        color: $green_model1;
+        padding: 1%;
+        font-size: 14px;
+    }
+
+    [type="submit"] {
+        color: red;
+        width: 20vh;
+        font-size: 16px;
+        font-weight: 200;
+        color: whitesmoke;
+        background-color: $green_model1;
+        border: none;
+        padding: 5%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+// SECTION.CONTACT, END
+}
 

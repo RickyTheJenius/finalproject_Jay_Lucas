@@ -9,14 +9,19 @@ html {
 }
 
 .products article,
-.email article {
+.email article,
+.contact {
     @include colC;
 }
+
 
 main,
 .reviews,
 .reviews figure,
 .reviews figure > figcaption,
-.email {
+.email,
+.contact section,
+.contact section > form,
+.contact article {
     @include colC2 
 }
