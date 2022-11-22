@@ -79,3 +79,19 @@ header section {
     }
 }
 // SECTION.EMAIL, END
+
+// SECTION.CONTACT, START
+.contact section > h1 {
+    font-size: 28px;
+    padding: 3vh;
+}
+.contact input {
+    padding: 2%;
+    font-size: 16px;
+}
+
+.contact [type="submit"] {
+    padding: 2%;
+    font-size: 20px;
+}
+// SECTION.CONTACT, END
