@@ -3,3 +3,20 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.products article,
+.email article {
+    @include colC;
+}
+
+main,
+.reviews,
+.reviews figure,
+.reviews figure > figcaption,
+.email {
+    @include colC2 
+}

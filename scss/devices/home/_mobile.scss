@@ -1,6 +1,4 @@
 main {
-    display: flex;
-    flex-direction: column;
     row-gap: 2vh;
 }
 
@@ -124,43 +122,61 @@ img {
     }
 }
 
+// SECTION.COMPANY, START
+    .company {
+        p {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+        span {
+            color: $green_model1;
+            font-weight: 500;
+        }
+    }
+// SECTION.COMPANY, END
+
+// SECTION.PRODUCTS, START
 .products {
+    background-image: url(/img/bg-img-00.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    background-color: orange;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    padding-left: 2vh;
-    img {
-        padding: 1vh;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+
+    article {
+        background-color: rgba(50, 50, 50, 0.5);
+        width: 100%;
+        height: 100%;
     }
-    figcaption {
-        padding-left: 1.2vh;
-        font-weight: 600;
-        font-size: 20px;
-    }
+
     a {
-        padding-top: 10vh;
-        padding-left: 3.5vh;
         color: white;
         text-decoration: none;
+        padding: 1%;
+        text-transform: uppercase;
+        transition: 0.4s;
+    }
+
+    a:hover {
+        transform: scale(1.1);
     }
 }
+// SECTION.PRODUCTS, END
 
-
+// SECTION.REVIEWS, START
 .reviews {
-    display: flex;
-    flex-direction: column;
     row-gap: 2vh;
 
     figure {
         padding-top: 1vh;
         padding-bottom: 1vh;
-        display: flex;
         row-gap: 2vh;
-        flex-direction: column;
         align-items: center;
-        border: 1px solid red;
-        background-color: $green_model2;
     }
 
     i {
@@ -168,8 +184,6 @@ img {
     }
 
     figcaption {
-        display: flex;
-        flex-direction: column;
         align-items: center;
         row-gap: 2vh;
     }
@@ -183,14 +197,58 @@ img {
 
     figcaption p {
         text-transform: capitalize;
+        text-align: center;
         font-size: 18px;
-        font-weight: 200;;
+        font-weight: 200;
+        width: 80%
     }
 
     cite {
         text-transform: capitalize;
         font-size: 14px;
+        color: grey;
     }
 }
+// SECTION.REVIEWS, END
+
+// SECTION.EMAIL, START
+    .email {
+        background-image: url(/img/bg-img-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+
+        article {
+            background-color: rgba(50, 50, 50, 0.8);
+            width: 100%;
+            height: 100%;
+            row-gap: 2vh;
+
+            h1 {
+                color: whitesmoke;
+                font-weight: 400;
+                font-size: 22px;
+            }
+
+            p {
+                width: 80%;
+                text-align: center;
+                color: whitesmoke;
+                font-weight: 100;
+            }
+
+            a {
+                color: whitesmoke;
+                text-decoration: none;
+                background-color: rgba(0, 168, 187, 0.2);
+                padding: 2% 3% 3% 2%;
+                font-weight: 100;
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+        }
+    }
+// SECTION.EMAIL, END
 
 
