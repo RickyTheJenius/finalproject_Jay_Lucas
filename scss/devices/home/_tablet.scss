@@ -48,6 +48,11 @@ header section {
 // SECTION.REVIEWS, START
 .reviews {
     flex-direction: row;
-    flex-wrap: wraprev;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    figure {
+        width: 50%;
+    }
 }
 // SECTION.REVIEWS, END

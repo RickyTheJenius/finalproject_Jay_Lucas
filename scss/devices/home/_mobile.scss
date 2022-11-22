@@ -154,10 +154,11 @@ nav {
     row-gap: 2vh;
 
     figure {
+        align-items: center;
         padding-top: 1vh;
         padding-bottom: 1vh;
         row-gap: 2vh;
-        align-items: center;
+        width: 80%;
     }
 
     i {
@@ -323,4 +324,3 @@ footer {
     }
 }
 // FOOTER, END
-
