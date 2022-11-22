@@ -56,3 +56,26 @@ header section {
     }
 }
 // SECTION.REVIEWS, END
+
+// SECTION.EMAIL, START
+.email {
+    height: 40vh;
+
+    article {
+        row-gap: 5vh;
+        
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        a {
+            font-size: 22px;
+            padding: 2%;
+        }
+    }
+}
+// SECTION.EMAIL, END
