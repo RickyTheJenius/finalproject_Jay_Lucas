@@ -115,8 +115,10 @@ img {
 // SECTION.COMPANY, START
 .company {
     padding-top: 2vh;
-    
+
     p {
+        padding-left: 2vh;
+        padding-right: 2vh;
         text-align: center;
         font-size: 18px;
         font-weight: 300;
@@ -290,7 +292,6 @@ img {
     }
 
     [type="submit"] {
-        color: red;
         width: 20vh;
         font-size: 16px;
         font-weight: 200;
