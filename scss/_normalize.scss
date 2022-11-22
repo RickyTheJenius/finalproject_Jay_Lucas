@@ -9,6 +9,7 @@ html {
 }
 
 .products article,
+.reviews,
 .email article,
 .contact {
     @include colC;
@@ -16,8 +17,7 @@ html {
 
 
 main,
-.reviews,
-.reviews figure,
+.reviews > figure,
 .reviews figure > figcaption,
 .email,
 .contact section,
