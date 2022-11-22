@@ -1,3 +1,9 @@
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
 header {
     width: 100%;
 }
@@ -19,7 +25,13 @@ nav {
     align-items: center;
     column-gap: 2vh;
     position: relative;
-
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-left: 2%;
+    background-color: white;
+    
     section {
         display: flex;
         align-items: center;
@@ -49,16 +61,7 @@ nav {
         width: 10vh;
         height: 10vh;
     }
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding-left: 2%;
-    padding-left: 2%;
-    background-color: white;
-    img {
-        width: 10vh;
-        height: 10vh;
-    }
+   
 }
 
 nav > ul {
@@ -142,4 +145,52 @@ img {
         text-decoration: none;
     }
 }
+
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+
+    figure {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        display: flex;
+        row-gap: 2vh;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid red;
+        background-color: $green_model2;
+    }
+
+    i {
+        color: $green_model1;
+    }
+
+    figcaption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2vh;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 10vh;
+        height: 10vh;
+        border: 2px solid $green_model1;
+    }
+
+    figcaption p {
+        text-transform: capitalize;
+        font-size: 18px;
+        font-weight: 200;;
+    }
+
+    cite {
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+}
+
 
