@@ -27,10 +27,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    // column-gap: 2vh;
     position: relative;
     width: 95%;
-    display: flex;
     align-items: center;
     padding-left: 2%;
     padding-left: 2%;
@@ -41,6 +39,7 @@ nav {
         justify-content: flex-start;
         column-gap: 2vh;
         width: 100%;
+        padding-left: 1vh;
     }
 
     h1 {
@@ -48,20 +47,40 @@ nav {
         color: $green_model1;
     }
 
+    // NAVIGATION, HAMBURGER MENU
     details {
         display: flex;
-        // align-items: flex-end;
+        width: 95%;
+        position: absolute;
+        text-align: right;
 
         ul {
             display: flex;
             flex-direction: column;
-            background-color: greenyellow;
+            background-color: $green_model3;
+            position: absolute;
+            width: 100%;
+            margin-top: 3.5vh;
         }
 
         li { 
             display: flex;
             list-style-type: none;
+            display: flex;
+            border-top: 1px solid $green_model2;
+            list-style-type: none;
+            text-align: left;
+            padding: 1vh;
         }
+
+        a {
+            padding-left: 2vh;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-size: 14px;
+        }
+        // NAVIGATION, HAMBURGER MENU
     }
     
     ul {
@@ -72,57 +91,13 @@ nav {
         width: 10vh;
         height: 10vh;
     }
-   
+    
+    summary {
+        color: $green_model1;
+        font-size: 24px;
+    }
 }
-
-nav > ul {
-    display: none;
-}
-
-nav summary {
-    color: $green_model1;
-    font-size: 24px;
-    // padding: 2vh;
-}
-
-// nav h2 { DON'T HAVE H2 IN NAV HTML....
-//     color: orange;
-//     margin-bottom: 0;        
-//     padding: 2vh;
-//     font-weight: 600;
-// }
-
-details {
-    width: 95%;
-    position: absolute;
-    text-align: right;
-}
-
-details ul {
-    position: absolute;
-    background-color: orange;
-    width: 95%;
-    padding-left: 0;
-}
-
-details li {
-    display: flex;
-    border-top: 1px solid darkorange;
-    list-style-type: none;
-    text-align: left;
-    padding: 1vh;
-}
-
-details a {
-    padding-left: 2vh;
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-}
-
-img {
-    height: 20vh;
-}
+// NAVIGATION, END
 
 // SECTION.COMPANY, START
 .company {
