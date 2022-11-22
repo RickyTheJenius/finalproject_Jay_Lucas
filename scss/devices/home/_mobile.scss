@@ -1,7 +1,10 @@
+// MAIN, START
 main {
     row-gap: 2vh;
 }
+// MAIN, END
 
+// HEADER, START
 header {
     width: 100%;
 }
@@ -17,24 +20,32 @@ header section {
         object-fit: cover;
     }
 }
+// HEADER, END
 
+// NAVIGATION, START
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 2vh;
+    // column-gap: 2vh;
     position: relative;
     width: 95%;
     display: flex;
     align-items: center;
     padding-left: 2%;
     padding-left: 2%;
-    background-color: white;
     
     section {
         display: flex;
         align-items: center;
+        justify-content: flex-start;
         column-gap: 2vh;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 22px;
+        color: $green_model1;
     }
 
     details {
@@ -53,9 +64,10 @@ nav {
         }
     }
     
-    ul{
+    ul {
         display: none;
     }
+
     img {
         width: 10vh;
         height: 10vh;
@@ -68,17 +80,17 @@ nav > ul {
 }
 
 nav summary {
-    color: green;
+    color: $green_model1;
     font-size: 24px;
-    padding: 2vh;
+    // padding: 2vh;
 }
 
-nav h2 {
-    color: orange;
-    margin-bottom: 0;        
-    padding: 2vh;
-    font-weight: 600;
-}
+// nav h2 { DON'T HAVE H2 IN NAV HTML....
+//     color: orange;
+//     margin-bottom: 0;        
+//     padding: 2vh;
+//     font-weight: 600;
+// }
 
 details {
     width: 95%;
