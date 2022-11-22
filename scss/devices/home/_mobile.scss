@@ -49,6 +49,59 @@ nav {
         width: 10vh;
         height: 10vh;
     }
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-left: 2%;
+    background-color: white;
+}
+
+nav > ul {
+    display: none;
+}
+
+nav summary {
+    color: orangered;
+    font-size: 24px;
+    padding: 2vh;
+}
+
+nav h2 {
+    color: orange;
+    margin-bottom: 0;        
+    padding: 2vh;
+    font-weight: 600;
+}
+
+details {
+    width: 95%;
+    position: absolute;
+    text-align: right;
+    @include flexAndSet;
+
+}
+
+details ul {
+    position: absolute;
+    background-color: orange;
+    width: 100%;
+    padding-left: 0;
+}
+
+details li {
+    display: flex;
+    border-top: 1px solid darkorange;
+    list-style-type: none;
+    text-align: left;
+    padding: 1vh;
+}
+
+details a {
+    padding-left: 2vh;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
 }
 
 img {
@@ -87,3 +140,4 @@ img {
         text-decoration: none;
     }
 }
+
