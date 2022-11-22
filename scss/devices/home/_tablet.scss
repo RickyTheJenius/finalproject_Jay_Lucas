@@ -1,12 +1,12 @@
 // NAVIGATION, START
 nav {
     h1 {
-        font-size: 30px;
+        font-size: 36px;
     }
 
     details {
         summary {
-            font-size: 30px;
+            font-size: 36px;
         }
     
         ul {
@@ -95,3 +95,13 @@ header section {
     font-size: 20px;
 }
 // SECTION.CONTACT, END
+
+// FOOTER, START
+footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+// FOOTER, END
