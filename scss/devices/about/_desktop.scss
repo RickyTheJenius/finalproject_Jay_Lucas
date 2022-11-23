@@ -1,0 +1,78 @@
+.farm {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        font-size: 36px;
+        padding-top: 8vh;
+        padding-bottom: 8vh;
+    }
+
+    figure {
+        padding-left: 5vh;
+        padding-right: 5vh;
+        padding-bottom: 5vh;
+        display: flex;
+        column-gap: 5vh;
+        justify-content: center;
+        
+        figcaption {
+            display: flex;
+            justify-content: flex-start;
+            width: 40%;
+            
+            p {
+                font-size: 20px;
+                padding: 0;
+            }
+        }
+    }
+
+    img {
+        width: 50%;
+        height: 55vh;
+    }
+}
+// ABOUT: SECTION.FARM, END
+
+// ABOUT: SECTION.INDUSTRY, START
+.industry {
+    h1 {
+        font-size: 36px;
+        padding-top: 8vh;
+        padding-bottom: 8vh;
+    }
+
+    p {
+        padding-left: 10vh;
+        padding-right: 10vh;
+        font-size: 20px;
+        width: 80%;
+    }
+}
+// ABOUT: SECTION.INDUSTRY, END
+
+// ABOUT: SECTION.MEDIA, START
+.media {
+    h1 {
+        font-size: 36px;
+        padding-top: 8vh;
+        padding-bottom: 8vh;
+    }
+
+    a {
+        font-size: 32px;
+        width: 8vh;
+        height: 8vh;
+    }
+
+    a:hover {
+        background-color: $green_model4;
+        border: 1px solid $green_model3;
+    }
+
+    a:hover i {
+        color: whitesmoke;
+    }
+}
+// ABOUT: SECTION.MEDIA, END
