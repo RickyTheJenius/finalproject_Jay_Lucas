@@ -1,0 +1,61 @@
+// NAVIGATION, START
+nav {
+    section {
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    ul { 
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    li {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        list-style: none;
+    }
+
+    a {
+        text-transform: uppercase;
+        width: 100%;
+        padding: 1%;
+        font-size: 18px;
+        text-decoration: none;
+        color: $green_model3;
+        transition: 0.4s;
+    }
+
+    a:hover {
+        background-color: $green_model1;
+        color: whitesmoke;
+    }
+
+    img {
+        width: 17vh;
+        height: 17vh;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+    
+    details {
+        display: none;
+    }
+}
+// NAVIGATION, END
+
+// HEADER, START
+header {
+    section {
+        video {
+            height: 65vh;
+        }
+    }
+}
+// HEADER, END
