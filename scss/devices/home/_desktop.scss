@@ -59,3 +59,17 @@ header {
     }
 }
 // HEADER, END
+
+// COMPANY, START
+.company {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    p {
+        width: 80%;
+        font-size: 24px;
+    }
+}
+// COMPANY, END
