@@ -1,0 +1,222 @@
+// MAIN, START
+main {
+    row-gap: 2vh;
+}
+// MAIN, END
+
+// HEADER, START
+header {
+    width: 100%;
+}
+
+header section {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    video {
+        display: none;
+    }
+}
+// HEADER, END
+
+// NAVIGATION, START
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 95%;
+    align-items: center;
+    padding-left: 2%;
+    padding-left: 2%;
+    
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 2vh;
+        width: 100%;
+        padding-left: 1vh;
+    }
+
+    h1 {
+        font-size: 22px;
+        color: $green_model1;
+    }
+
+    ul {
+        display: none;
+    }
+
+    // NAVIGATION, HAMBURGER MENU
+    details {
+        width: 95%;
+        position: absolute;
+        text-align: right;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            background-color: $green_model3;
+            position: absolute;
+            width: 100%;
+            margin-top: 3.5vh;
+        }
+
+        li { 
+            display: flex;
+            list-style-type: none;
+            display: flex;
+            border-top: 1px solid $green_model2;
+            list-style-type: none;
+            text-align: left;
+            padding: 1vh;
+        }
+
+        a {
+            padding-left: 2vh;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-size: 14px;
+        }
+        // NAVIGATION, HAMBURGER MENU
+    }
+    
+    ul {
+        display: none;
+    }
+
+    img {
+        width: 10vh;
+        height: 10vh;
+    }
+    
+    summary {
+        color: $green_model1;
+        font-size: 24px;
+    }
+}
+// NAVIGATION, END
+
+// SECTION.TOP, START
+.top {
+    background-image: url(/img/bg-img-01.jpg);
+    @include colC;
+    width: 100%;
+    padding: 1vh;
+    background-color: $green_model3;  
+    h2 {
+        color: rgb(30, 138, 61);
+        font-weight: 400;
+    }  
+}
+// SECTION.TOP, END
+
+// SECTION.PRODUCT, START
+.product {
+    width: 100%;
+    @include colC;
+    padding-bottom: 3vh;
+    row-gap: 3vh;
+    figure{
+        padding: 1vh;
+        border: 1px solid gray;
+        width: 90%;
+        @include colC2;
+        row-gap: 2vh;
+        aside {
+            display: flex;
+            justify-content: space-between;
+        }
+        img {
+            width: 100%;
+        }
+        h5 {
+            font-weight: 300;
+        }
+        h6 {
+            font-size: 12px;
+            color: rgb(41, 50, 38);
+        }
+        input {
+            padding: 1vh;
+            background-color: green;
+            color: white;
+            width: auto;
+            border: none;
+        }
+    }
+    
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4bb938;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+// SECTION.PRODUCT, END
+
+
+// FOOTER, START
+footer {
+    background-color: $green_model3;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1vh;
+    padding: 1vh;
+
+    p {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        text-align: center;
+        font-weight: 100;
+        font-size: 14px;
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+// FOOTER, END
