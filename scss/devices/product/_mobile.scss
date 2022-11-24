@@ -54,7 +54,7 @@ nav {
         width: 95%;
         position: absolute;
         text-align: right;
-        z-index: 1;
+        z-index: 60;
 
         ul {
             display: flex;
@@ -81,6 +81,7 @@ nav {
             text-transform: uppercase;
             color: white;
             font-size: 14px;
+            width: 100%;
         }
         // NAVIGATION, HAMBURGER MENU
     }
