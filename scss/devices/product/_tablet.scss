@@ -1,0 +1,56 @@
+// NAVIGATION, START
+nav {
+    h1 {
+        font-size: 36px;
+    }
+
+    details {
+        summary {
+            font-size: 36px;
+        }
+    
+        ul {
+            margin-top: 3.8vh;
+        }
+    }
+} 
+
+// NAVIGATION, END
+
+// HEADER, START
+header section {
+    video {
+        height: 35vh;
+    }
+}
+// HEADER, END
+
+#carouselExampleIndicators {
+    height: 40vh;
+    img {
+        height: 40vh;
+    }
+}
+
+// SECTION.PRODUCT, START
+.product {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2vh;
+    figure {
+        width: 40%;
+    }
+}
+
+// SECTION.PRODUCT, END
+
+// FOOTER, START
+footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+// FOOTER, END
