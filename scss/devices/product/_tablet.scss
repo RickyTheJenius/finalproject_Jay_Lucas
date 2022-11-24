@@ -25,6 +25,13 @@ header section {
 }
 // HEADER, END
 
+#carouselExampleIndicators {
+    height: 40vh;
+    img {
+        height: 40vh;
+    }
+}
+
 // SECTION.PRODUCT, START
 .product {
     width: 100%;
