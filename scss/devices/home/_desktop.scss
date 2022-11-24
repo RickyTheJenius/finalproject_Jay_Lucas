@@ -1,0 +1,119 @@
+// NAVIGATION, START
+nav {
+    section {
+        padding-left: 5vh;
+        h1 {
+            font-size: 40px;
+            padding-left: 2vh;
+            
+        }
+    }
+    
+    ul { 
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    li {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        list-style: none;
+    }
+
+    a {
+        text-transform: uppercase;
+        width: 100%;
+        padding: 3%;
+        font-size: 18px;
+        text-decoration: none;
+        color: $green_model3;
+        transition: 0.4s;
+    }
+
+    a:hover {
+        background-color: $green_model1;
+        color: whitesmoke;
+    }
+
+    img {
+        width: 10vh;
+        height: 10vh;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+    
+    details {
+        display: none;
+    }
+}
+// NAVIGATION, END
+
+// HEADER, START
+header {
+    section {
+        video {
+            height: 50vh;
+        }
+    }
+}
+// HEADER, END
+
+// COMPANY, START
+.company {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
+    p {
+        padding: 2vh;
+        width: 80%;
+        font-size: 24px;
+    }
+}
+// COMPANY, END
+
+// PRODUCT, START
+.products {
+    height: 55vh;
+}
+// PRODUCT, END
+
+// REVIEW, START
+.reviews {
+    padding: 5vh;
+
+    figure {
+        width: 25%;
+    }
+}
+// REVIEW, END
+
+// CONTACT, START
+.contact {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    column-gap: 5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+
+    iframe {
+        height: 39vh;
+    }
+
+    [type="submit"] {
+        font-size: 14px;
+        transition: 0.4s
+    }
+
+    [type="submit"]:hover {
+        background-color: $green_model4;
+    }
+}
+// CONTACT, END

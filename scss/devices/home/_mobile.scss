@@ -47,9 +47,12 @@ nav {
         color: $green_model1;
     }
 
+    ul {
+        display: none;
+    }
+
     // NAVIGATION, HAMBURGER MENU
     details {
-        display: flex;
         width: 95%;
         position: absolute;
         text-align: right;
