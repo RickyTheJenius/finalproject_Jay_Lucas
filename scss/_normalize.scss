@@ -22,6 +22,9 @@ main,
 .email,
 .contact section,
 .contact section > form,
-.contact article {
+.contact article,
+.farm,
+.industry,
+.media {
     @include colC2 
 }
