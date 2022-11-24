@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.products article,
+.reviews,
+.email article,
+.contact {
+    @include colC;
+}
+
+
+main,
+.reviews > figure,
+.reviews figure > figcaption,
+.email,
+.contact section,
+.contact section > form,
+.contact article {
+    @include colC2 
+}

@@ -1,0 +1,327 @@
+// MAIN, START
+main {
+    row-gap: 2vh;
+}
+// MAIN, END
+
+// HEADER, START
+header {
+    width: 100%;
+}
+
+header section {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    video {
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+    }
+}
+// HEADER, END
+
+// NAVIGATION, START
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 95%;
+    align-items: center;
+    padding-left: 2%;
+    padding-left: 2%;
+    
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 2vh;
+        width: 100%;
+        padding-left: 1vh;
+    }
+
+    h1 {
+        font-size: 22px;
+        color: $green_model1;
+    }
+
+    // NAVIGATION, HAMBURGER MENU
+    details {
+        display: flex;
+        width: 95%;
+        position: absolute;
+        text-align: right;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            background-color: $green_model3;
+            position: absolute;
+            width: 100%;
+            margin-top: 3.5vh;
+        }
+
+        li { 
+            display: flex;
+            list-style-type: none;
+            display: flex;
+            border-top: 1px solid $green_model2;
+            list-style-type: none;
+            text-align: left;
+            padding: 1vh;
+        }
+
+        a {
+            padding-left: 2vh;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-size: 14px;
+        }
+        // NAVIGATION, HAMBURGER MENU
+    }
+    
+    ul {
+        display: none;
+    }
+
+    img {
+        width: 10vh;
+        height: 10vh;
+    }
+    
+    summary {
+        color: $green_model1;
+        font-size: 24px;
+    }
+}
+// NAVIGATION, END
+
+// SECTION.COMPANY, START
+.company {
+    padding-top: 2vh;
+
+    p {
+        padding-left: 2vh;
+        padding-right: 2vh;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    span {
+        color: $green_model1;
+        font-weight: 500;
+    }
+}
+// SECTION.COMPANY, END
+
+// SECTION.PRODUCTS, START
+.products {
+    background-image: url(/img/bg-img-00.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+
+    article {
+        background-color: rgba(50, 50, 50, 0.5);
+        width: 100%;
+        height: 100%;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 1%;
+        text-transform: uppercase;
+        transition: 0.4s;
+    }
+
+    a:hover {
+        transform: scale(1.1);
+    }
+}
+// SECTION.PRODUCTS, END
+
+// SECTION.REVIEWS, START
+.reviews {
+    row-gap: 2vh;
+
+    figure {
+        align-items: center;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        row-gap: 2vh;
+        width: 80%;
+    }
+
+    i {
+        color: $green_model1;
+    }
+
+    figcaption {
+        align-items: center;
+        row-gap: 2vh;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 10vh;
+        height: 10vh;
+        border: 2px solid $green_model1;
+    }
+
+    figcaption p {
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 200;
+        width: 80%
+    }
+
+    cite {
+        text-transform: capitalize;
+        font-size: 14px;
+        color: grey;
+    }
+}
+// SECTION.REVIEWS, END
+
+// SECTION.EMAIL, START
+.email {
+    background-image: url(/img/bg-img-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+
+    article {
+        background-color: rgba(50, 50, 50, 0.8);
+        width: 100%;
+        height: 100%;
+        row-gap: 2vh;
+
+        h1 {
+            color: whitesmoke;
+            font-weight: 400;
+            font-size: 22px;
+        }
+
+        p {
+            width: 80%;
+            text-align: center;
+            color: whitesmoke;
+            font-weight: 100;
+        }
+
+        a {
+            color: whitesmoke;
+            text-decoration: none;
+            background-color: rgba(0, 168, 187, 0.2);
+            padding: 2% 3% 3% 2%;
+            font-weight: 100;
+            font-size: 16px;
+            text-transform: capitalize;
+        }
+    }
+}
+// SECTION.EMAIL, END
+
+// SECTION.CONTACT, START
+.contact {
+    padding-top: 2vh;
+    row-gap: 3vh;
+    padding-bottom: 2vh;
+
+    section {
+        row-gap: 2vh;
+        width: 90%;
+    }
+
+    article {
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        color: $green_model1;
+        text-transform: capitalize;
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    form {
+        row-gap: 2vh;
+    }
+
+    input {
+        padding: 3%;
+        font-size: 10px;
+    }
+
+    textarea {
+        height: 20vh;
+        padding: 2%;
+        color: $green_model1;
+        font-size: 16px;
+    }
+
+    input::placeholder {
+        color: $green_model1;
+        padding: 1%;
+        font-size: 14px;
+    }
+
+    [type="submit"] {
+        width: 20vh;
+        font-size: 16px;
+        font-weight: 200;
+        color: whitesmoke;
+        background-color: $green_model1;
+        border: none;
+        padding: 5%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+// SECTION.CONTACT, END
+
+// FOOTER, START
+footer {
+    background-color: $green_model3;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1vh;
+    padding: 1vh;
+
+    p {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        text-align: center;
+        font-weight: 100;
+        font-size: 14px;
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+// FOOTER, END
+
