@@ -80,9 +80,27 @@ header {
 
 // PRODUCT, START
 .products {
+    width: 100%;
     height: 55vh;
+
+    article {
+        background-color: rgba(50, 50, 50, 0.5);
+        width: 100%;
+        height: 100%;
+    }
 }
 // PRODUCT, END
+
+// SECTION.EMAIL, START
+.email {
+    width: 100%;
+    
+    article {
+        width: 100%;
+        height: 100%;
+    }
+}
+// SECTION.EMAIL, END
 
 // REVIEW, START
 .reviews {
@@ -96,6 +114,7 @@ header {
 
 // CONTACT, START
 .contact {
+    width: 100%;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
